@@ -1,57 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-    
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter-SemiBold.otf);
+    font-weight: 600;
 }
 body {
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.login-box {
-    height: 50%;
-    width: 30%;
-    border: solid #6F68EF 2px;
-    border-radius: 10px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 35px;
-}
-
-.login-box-title {
-    color: white;
-    background-color: #6F68EF;
-    width: 100%;
-    height: 50px;
-    text-align: center;
-}
-.login-title {
-    padding: 10px;
-}
-
-.login-form {
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-}
-.login-form-items{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-
-.btn-success-box {
-    display: flex;
-    justify-content: center;
-}
-
-.btn-success {
-    background-color: #6F68EF;
-    color: white;
-    border-radius: 10px;
+    font-family: 'Inter';
+    font-size: 16px;
 }
