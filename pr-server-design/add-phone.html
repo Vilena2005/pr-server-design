@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/user-style.css">
+    <link rel="stylesheet" href="css/add-style.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Abonets</title>
+    <title>add phone</title>
 </head>
 <body>
     <header>
@@ -33,25 +33,29 @@
 
     <main>
         <div class="container">
-            <select name="sort" id="sort-list">
-                <option value="">Сортировка</option>
-                <option value="by-division">по подразделениям</option>
-                <option value="by-birth">по дате рождения</option>
-                <option value="by-id">по ID</option>
-            </select>
-        
-
-            <div class="main-items-wrap">
-                <div class="main-item-title">
-                    <p class="main-title">Фамилия</p>
-                    <p class="main-title">Имя</p>
-                    <p class="main-title">Отчество</p>
-                    <p class="main-title">Дата рождения</p>
-                    <p class="main-title">Подразделение</p>
-                    <p class="main-title">Телефон</p>
+            <div class="add-phone">
+                
+                <div class="add-phone-item">
+                    <p class="add-phone-title">Номер телефона</p>
+                    <form action="">
+                        <input type="text" class="add-phone-input-form" placeholder="+79008000011" required>
+                    </form>
                 </div>
+                <div class="add-phone-item">
+                    <p class="add-phone-title">Вид помещения</p>
+                    <form action="">
+                        <input type="text" class="add-phone-input-form" placeholder="Лаборатория" required>
+                    </form>
+                </div>
+
+                <div class="buttons-wrap">
+                    <form action="" class="buttons">
+                        <input type="submit" value="Добавить" class="button-submit">
+                        <input type="reset" value="Удалить" class="button-reset">
+                    </form>
+                </div>
+
             </div>
-            
         </div>
     </main>
 </body>

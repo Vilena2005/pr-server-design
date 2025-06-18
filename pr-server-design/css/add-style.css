@@ -1,0 +1,100 @@
+input {
+    width: 100%;
+}
+/* add-abonent start*/
+.add-abonent {
+    display: flex;
+    justify-content: space-between;
+}
+.add-abonent-wrap {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}
+.add-abonent-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.add-abonent-input-form {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #E5E5E5;
+    border: transparent;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+#division-list {
+    width: 100%;
+    font-family: 'Inter';
+    background-color: #E5E5E5;
+    border: transparent;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+/* add-abonent-end */
+
+/* add-division start*/
+.add-division {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.add-division-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.add-division-input-form {
+    background-color: #E5E5E5;
+    border: transparent;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+/* add-division end*/
+
+/* add-room start*/
+.add-room {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.add-room-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.add-room-input-form {
+    background-color: #E5E5E5;
+    border: transparent;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+/* add-room end*/
+
+/* add-phone start*/
+.add-phone {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.add-phone-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.add-phone-input-form {
+    background-color: #E5E5E5;
+    border: transparent;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+/* add-phone end*/

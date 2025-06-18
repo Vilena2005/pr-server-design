@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/add-style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>add abonent</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-wrap">
+                <div class="header-user-role">
+                    <p class="user-role">Системный<br>администратор</p>
+                </div>
+                <div class="header-items-wrap">
+                    <a class="header-item" href="">Подразделение</a>
+                    <a class="header-item" href="">Помещение</a>
+                    <a class="header-item" href="">Абоненты</a>
+
+                    <select name="add" id="add-list">
+                        <option value="">Добавить</option>
+                        <option value="abonent">Абонента</option>
+                        <option value="room">Помещение</option>
+                        <option value="division">Подразделение</option>
+                        <option value="phone-number">Телефон</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="add-abonent">
+                <div class="add-abonent-wrap">
+                    <div class="add-abonent-item">
+                        <p class="add-abonent-title">Фамилия</p>
+                        <form action="">
+                            <input type="text" class="add-abonent-input-form" placeholder="Алексеев" required>
+                        </form>
+                    </div>
+                    <div class="add-abonent-item">
+                        <p class="add-abonent-title">Имя</p>
+                        <form action="">
+                            <input type="text" class="add-abonent-input-form" placeholder="Алексей" required>
+                        </form>
+                    </div>
+                    <div class="add-abonent-item">
+                        <p class="add-abonent-title">Отчество</p>
+                        <form action="">
+                            <input type="text" class="add-abonent-input-form" placeholder="Алексеевич" required>
+                        </form>
+                    </div>
+                    <div class="add-abonent-item">
+                        <p class="add-abonent-title">Дата рождения</p>
+                        <form action="">
+                            <input type="date" class="add-abonent-input-form" required>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="add-abonent-wrap">
+
+                    <div class="add-abonent-item">
+                        <p class="add-abonent-title">ID</p>
+                        <form action="">
+                            <input type="number" class="add-abonent-input-form" placeholder="1234567" required>
+                        </form>
+                    </div>
+
+                    <div class="add-abonent-item">
+                        <p class="add-abonent-title">Подразделение</p>
+                        <select name="sort" id="division-list">
+                            <option value="">Техническое обслуживание</option>
+                            <option value="">Производственный отдел</option>
+                        </select>
+                    </div>
+                    
+                    <div class="add-abonent-item">
+                        <p class="add-abonent-title">Номер телефона</p>
+                        <form action="">
+                            <input type="tel" class="add-abonent-input-form" placeholder="+79008000011" pattern="[0-9]{1} [0-9]{3} [0-9]{3} [0-9]{2} [0-9]{2}" required>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="buttons-wrap">
+                <form action="" class="buttons">
+                    <input type="submit" value="Добавить" class="button-submit">
+                    <input type="reset" value="Удалить" class="button-reset">
+                </form>
+            </div>
+
+        </div>
+    </main>
+</body>
+</html>
